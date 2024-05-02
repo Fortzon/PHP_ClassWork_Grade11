@@ -8,6 +8,7 @@ $Nome = "Miguel";
 $Idade = 16;
 $casado = false;
 $altura = 1.64;
+$Dinheiro = 1000;
 
 
 
@@ -31,5 +32,13 @@ var_dump($altura);
 //Atribuição encadeada
 $n1=$n2=$n3=300;
 
-echo "Olá $nome! Tens $idade e medes $altura";
+echo "Olá $nome! Tens $Idade e medes $Altura m.";
+
+echo "Olá $Nome! Tens a pagar $Dinheiro €";
+
+$soma = "2"+"2";
+
+echo $soma;
+
+var_dump($soma);
 ?>
