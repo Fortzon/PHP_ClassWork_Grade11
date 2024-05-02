@@ -1,0 +1,9 @@
+form{
+    background-color: cadetblue;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: blueviolet;
+    border-width: 4px;
+    padding: 20px;
+    width: 200px;
+}
