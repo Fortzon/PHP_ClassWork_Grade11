@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paridade e Descontos</title>
+</head>
+<body>
+    <form action="Ex1.php" method="post">
+        <label for="numero">Insira um número para ver se é par ou impar</label>
+        <br>
+        <input type="number" name="numero">
+        <br>
+        <button>Correr</button>
+    </form>
+
+    <br>
+    <br>
+    <br>
+    
+    <form action="Ex2.php" method="post">
+        <label for="numero">Insira o preço do produto</label>
+        <br>
+        <input type="number" name="numero">
+        <br>
+        <label for="tipo">Insira o tipo do produto</label>
+        <br>
+        <!-- Eu pesquisei a informação abaixo, aqui está o site, não, não foi no chatgpt: http://devfuria.com.br/php/manipulando-combobox-com-php/-->
+        <select name="tipo">
+            <option value="T1">Cheque</option>
+            <option value="T2">Dinheiro</option>
+            <option value="T3">Duas vezes</option>
+            <option value="T4">Mais de duas vezes</option>
+        </select>
+        <br>
+        <button>Correr</button>
+    </form>
+</body>
+</html>

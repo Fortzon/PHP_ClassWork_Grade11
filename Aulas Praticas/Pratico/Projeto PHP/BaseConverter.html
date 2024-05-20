@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base Converter</title>
+    <link rel="icon" href="Imagens/favicon.ico">
+    <link rel="stylesheet" href="BaseConverter.css">
+</head>
+<body>
+    <h1>Base Converter</h1>
+    <div>
+        <form action="BaseConverter.php" method="post">
+            <label for="numero">Numero</label>
+            <br>
+            <input type="number" name="numero">
+            <br>
+            <label for="numero">Base</label>
+            <br>
+            <select name="Base">
+                <option value="B">Binario</option>
+                <option value="O">Octal</option>
+                <option value="D">Decimal</option>
+                <option value="H">Hexadecimal</option>
+            </select>
+            <br>
+        <button id="CV">Converter</button>
+    </form>
+    </div>
+    <button>Inicio</button>
+</body>
+</html>
