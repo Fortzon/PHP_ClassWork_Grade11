@@ -12,29 +12,30 @@
     <div>
         <h1 class="IPS">IPv4 -> Binário</h1>
         <form action="IPV4.php" method="post">
-            <input type="radio" name="IPV4">
+            <input type="radio" name="IPV4" id="IPV4" checked>
             <label for="IPV4">IPv4</label>
             <br>
             <label for="UIP6">Número IP</label>
-            <input type="text" name="UIP4">
+            <input type="text" name="UIP4" id="INP4">
             <br>
-            <button class="CV">Converter</button>
+            <button class="CV" id="But4">Converter</button>
             <br>
         </form>
     </div>
     <div>
         <h1 class="IPS">IPv6 -> Binário</h1>
         <form action="IPV6.php" method="post">
-            <input type="radio" name="IPV4">
+            <input type="radio" name="IPV6" id="IPV6">
             <label for="IPV6">IPv6</label>
             <br>
             <label for="UIP6">Número IP</label>
-            <input type="text" name="UIP6">
+            <input type="text" name="UIP6" id="INP6">
             <br>
-            <button class="CV">Converter</button>
+            <button class="CV" id="But6">Converter</button>
             <br>
         </form>
     </div>
-    <button>Inicio</button>
+    <button><a href="NetTools.html">Inicio</a></button>
+    <script src="Rad.js"></script>
 </body>
 </html>

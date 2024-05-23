@@ -77,3 +77,8 @@ label{
 select{
     padding-right: 65px;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
